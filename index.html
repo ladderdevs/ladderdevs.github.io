@@ -144,6 +144,7 @@
     <div class="container">
       <div class="section-heading text-center" style="text-align:center;">
         <h2 style="color:white;">Pricing</h2>
+        <input type="image" src="img/BasicLanding.png" height="600" id="basic"  />
         <input type="image" src="img/ProLandingUpdate.png" height="600" id="pro"  />
         <!-- <img id="pro" src="img/ProLandingUpdate.png" height="600"> -->
       </div>
@@ -236,6 +237,24 @@
   <script>
     var modal = document.getElementById("myModal");
     var btn = document.getElementById("pro");
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("basic");
     var span = document.getElementsByClassName("close")[0];
 
     btn.onclick = function() {
