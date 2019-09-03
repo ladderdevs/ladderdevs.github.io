@@ -288,7 +288,7 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
+  padding: 75px 0;
   background: -webkit-gradient(linear, right top, left top, from(#4474b6), to(#4474b6));
   background-position: center;
   background-size: cover;
@@ -417,7 +417,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .button1 {
-  background-color: #4474b6; /* Green */
+  background-color: #4474b6;
   border: none;
   color: white;
   padding: 15px 32px;
